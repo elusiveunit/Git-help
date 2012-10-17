@@ -1,4 +1,4 @@
-Git-help
-========
+Git help/tips/reminders
+=======================
 
-Assorted personal instructions/reminders for a git amateur
+Since I suck at git, I'm adding different kinds of unsorted instructions and reminders here, for whenever I might run into the same thing again.
