@@ -5,10 +5,10 @@ Undo last Git commit
 
 Say you have this, where C is your HEAD and (F) is the state of your files.
 
-	   (F)
-	A-B-C
-	    |
-	  master
+	       (F)
+	A---B---C
+	        |
+	      master
 
 If you want to **nuke commit C and never see it again**. You do this:
 
@@ -16,10 +16,10 @@ If you want to **nuke commit C and never see it again**. You do this:
 
 The result is:
 
-	 (F)
-	A-B
-	  |
-	master
+	   (F)
+	A---B
+	    |
+	  master
 
 Now B is the HEAD. Because you used `--hard`, your files are reset to their state at commit B.
 
@@ -29,10 +29,10 @@ Ah, but suppose commit C wasn't a disaster, but just a bit off. You want to undo
 
 In this case the result is:
 
-	   (F)
-	A-B-C
-	  |
-	master
+	       (F)
+	A---B---C
+	    |
+	  master
 
 
 In both cases, HEAD is just a pointer to the latest commit. When you do a `git reset HEAD~1`, you tell Git to move the HEAD pointer back one commit. But (unless you use `--hard`) you leave your files as they were. So now `git status` shows the changes you had checked into C. You haven't lost a thing!
