@@ -50,3 +50,12 @@ Nope, there's still a way to get it back. Type `git reflog` and you'll see a lis
 	git checkout -b someNewBranchName shaYouDestroyed
 
 You've now resurrected that commit. Commits don't actually get destroyed in Git for some 90 days, so you can usually go back and rescue one you didn't mean to get rid of.
+
+Undo older commit
+-----------------
+
+This can be done with the `git revert` command, which reverts the changes that the specified commits introduce as new commits. This requires your working tree to be clean (no modifications from the HEAD commit).  [Documentation](http://git-scm.com/docs/git-revert)
+
+	git revert f1a3098f 2c67ee75
+
+When reverting several commits, the `--no-commit` (or just `-n`) flag can be useful. This applies the revert changes without making the commits, so you don't end up with a long list of revert commits. This also means the index does not have to match the HEAD commit.
