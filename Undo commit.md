@@ -54,7 +54,7 @@ You've now resurrected that commit. Commits don't actually get destroyed in Git 
 Undo older commit
 -----------------
 
-This can be done with the `git revert` command, which reverts the changes that the specified commits introduce as new commits. This requires your working tree to be clean (no modifications from the HEAD commit).  [Documentation](http://git-scm.com/docs/git-revert)
+This can be done with the `git revert` command, which reverts the changes that the specified commits introduce, by making new commits. This requires your working tree to be clean (no modifications from the HEAD commit).  [Documentation](http://git-scm.com/docs/git-revert)
 
 	git revert f1a3098f 2c67ee75
 
