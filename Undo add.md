@@ -1,5 +1,4 @@
-Undo git add before commit
-==========================
+# Undo git add before commit
 
 As git tells you:
 

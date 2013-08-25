@@ -1,5 +1,4 @@
-Default editor
-==============
+# Default editor
 
 Set a default editor to use with Git on Windows.
 

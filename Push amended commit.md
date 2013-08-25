@@ -1,5 +1,4 @@
-Push amended commit
-===================
+# Push amended commit
 
 For when you immediately realize you need to adjust your last pushed commit.
 

@@ -1,5 +1,4 @@
-Difference of "git add -A" and "git add ."
-==========================================
+# Difference of "git add -A" and "git add ."
 
 [Stack Overflow question](http://stackoverflow.com/questions/572549/difference-of-git-add-a-and-git-add), thanks to [Charles Bailey](http://stackoverflow.com/users/19563/charles-bailey)
 

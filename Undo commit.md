@@ -1,5 +1,4 @@
-Undo last Git commit
-====================
+# Undo last Git commit
 
 [Stack Overflow question](http://stackoverflow.com/questions/927358/undo-last-git-commit), thanks to [Kyralessa](http://stackoverflow.com/users/5486/kyralessa)
 
